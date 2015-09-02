@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="description" content="description of your site">
+    <meta name="author" content="author of the site">
+    <title>/index.html</title><link rel='stylesheet' href='css/master.css' />
+  </head>
+  <body>
+
+    <div id="gkc">
+      <div id="performanceTabs">
+        <ul class="component-tabs">
+          <li class="active">
+            <a href="#tabsChart" >Chart</a>
+          </li>
+          <li class="">
+            <a href="#tabsReturns" >Returns</a>
+          </li>
+          <li class="">
+            <a href="#tabsDistributions" >Distributions</a>
+          </li>
+        </ul>
+        <div id="tabsChart" class="component-tabs-panel ui-helper-clearfix active">
+          <div id="chartTabs" data-timeperiod="all">
+            <div class="ui-helper-clearfix">
+            <ul class="component-tabs sub-tabs">
+              <li class="active growth">
+                <a href="#" >Growth of Hypothetical $10,000</a>
+              </li>
+              <li class="histnav">
+                <a href="#" >Historical NAVs</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form id="fund-chart-options">
+        <label>Share Class:
+        <select name="Share Class" id="share-class">
+          <option value="GAVIX" selected="selected">GAVIX</option>
+          <option value="GAVAX">GAVAX</option>
+        </select> 
+        </label>
+      </form>
+      <div id="container"></div>
+    </div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src='js/lodash.js'></script>
+    <script src='js/data.js'></script>
+    <script src='js/formatData.js'></script>
+    <script src="js/highstock.src.js"></script>
+    <script>var gkcPage='mf';</script>
+    <script src='js/main.js'></script>
+  </body>
+</html>

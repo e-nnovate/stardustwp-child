@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="description" content="description of your site">
+    <meta name="author" content="author of the site">
+    <title>/index.html</title><link rel='stylesheet' href='css/master.css' />
+  </head>
+  <body>
+
+    <div id="gkc">
+            
+      <div id="performanceTabs">
+        <ul class="component-tabs">
+          <li class="active returns top">
+            <a>Returns</a>
+          </li>
+          <li class="chart top">
+            <a>Chart</a>
+          </li>
+          <li class="distro top">
+            <a>Distributions</a>
+          </li>
+          <li class="pd top">
+            <a>Premium/Discount</a>
+          </li>
+        </ul>
+        <div id="tabsChart" class="component-tabs-panel ui-helper-clearfix active">
+          <div id="chartTabs" data-timeperiod="all">
+            <div class="ui-helper-clearfix">
+              <ul class="chart component-tabs sub-tabs">
+                <li class="active growth">
+                  <a>Growth of Hypothetical $10,000</a>
+                </li>
+                <li class="histnav">
+                  <a>Historical NAVs<span class="andprices"> &amp; Prices</span></a>
+                </li>
+              </ul>
+              <ul class="returns component-tabs sub-tabs start-hidden" >
+                <li class="active annual">
+                  <a >Annualized</a>
+                </li>
+                <li class="cumulative">
+                  <a >Cumulative</a>
+                </li>
+                <li class="calendar">
+                  <a >Calendar</a>
+                </li>
+              </ul>
+              <ul class="distro component-tabs sub-tabs start-hidden">
+                <li class="active distro-chart">
+                  <a  >chart</a>
+                </li>
+                <li class="distro-table">
+                  <a  >table</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form id="state-form"></form>
+
+      <div id="chart" class="main">
+        <div class="container"></div>
+      </div>
+      <div id="returns" class="main">
+        <div class="container"></div>
+      </div>
+      <div id="distro" class="main">
+        <!-- Custom Columns START -->
+        <div class="custom-columns allDistroTable" id="gkccc-DIV_1">
+        <label class="col-display-label closed" id="gkccc-LABEL_2">Custom Columns</label>
+        <ul class="col-display closed" id="gkccc-UL_3">
+        </ul>
+        </div>
+        <!-- Custom Columns END -->
+        <div class="container"></div>
+        <div class="table-container" style="display:none;">
+          <div class="gavax start-hidden"></div>
+          <div class="gavix"></div>
+        </div>
+      </div>
+      <div id="pd" class="main" style="display:none;">
+        <div class="container">
+          <div id="pd-DIV_1">
+            <div id="pd-DIV_2">
+              <div id="pd-DIV_3">
+                 <span id="pd-SPAN_4">$66.97</span>
+                <p id="pd-P_5">
+                  CLOSING PRICE<a href="#" id="pd-A_6"></a>
+                </p>
+                <p id="pd-P_7">
+                  as of 17-Jun-2015
+                </p>
+                <p id="pd-P_8">
+                </p>
+              </div>
+              <div id="pd-DIV_9">
+                 <span id="pd-SPAN_10">$67.11</span>
+                <p id="pd-P_11">
+                  NAV<a href="#" id="pd-A_12"></a>
+                </p>
+                <p id="pd-P_13">
+                  as of 17-Jun-2015
+                </p>
+                <p id="pd-P_14">
+                </p>
+              </div>
+              <div id="pd-DIV_15">
+                 <span id="pd-SPAN_16">$67.12</span>
+                <p id="pd-P_17">
+                  MID-POINT<a href="#" id="pd-A_18"></a>
+                </p>
+                <p id="pd-P_19">
+                  as of 17-Jun-2015
+                </p>
+                <p id="pd-P_20">
+                </p>
+              </div>
+              <div id="pd-DIV_21">
+                 <span id="pd-SPAN_22">0.02</span>
+                <p id="pd-P_23">
+                  PREMIUM / DISCOUNT<a href="#" id="pd-A_24"></a>
+                </p>
+                <p id="pd-P_25">
+                  as of 17-Jun-2015
+                </p>
+                <p id="pd-P_26">
+                </p>
+              </div>
+              <div id="pd-DIV_27">
+                 <span id="pd-SPAN_28">0</span>
+                <p id="pd-P_29">
+                  DAILY VOLUME<a href="#" id="pd-A_30"></a>
+                </p>
+                <p id="pd-P_31">
+                  as of 17-Jun-2015
+                </p>
+                <p id="pd-P_32">
+                </p>
+              </div>
+            </div>
+            <div id="pd-DIV_33">
+              <table id="pd-TABLE_34">
+                <tbody id="pd-TBODY_35">
+                  <tr id="pd-TR_36">
+                    <td id="pd-TD_37">
+                      Greatest Premium
+                      <p class="as-of-date">Mar 13, 2015</p>
+                    </td>
+                    <td id="pd-TD_40">
+                      0.15
+                    </td>
+                  </tr>
+                  <tr id="pd-TR_41">
+                    <td id="pd-TD_42">
+                      Greatest Discount
+                      <p class="as-of-date">Mar 17, 2015</p>
+                    </td>
+                    <td id="pd-TD_45">
+                      -0.11
+                    </td>
+                  </tr>
+                  <tr id="pd-TR_46">
+                    <td id="pd-TD_47">
+                      Days ± 0.5% of NAV
+                    </td>
+                    <td id="pd-TD_48">
+                      60
+                    </td>
+                  </tr>
+                  <tr id="pd-TR_49">
+                    <td id="pd-TD_50">
+                      Percent ± 0.5% of NAV
+                    </td>
+                    <td id="pd-TD_51">
+                      100.00
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="pd-DIV_52">
+              <div id="pd-DIV_53">
+                <form action="#" id="pd-FORM_54">
+                   <span id="pd-SPAN_55">Select a Quarter</span> 
+                  <select id="pd-SELECT_56">
+                     
+                    <option value="2015/03/31" id="pd-OPTION_57">
+                      Jan-Mar,2015
+                    </option> 
+                    <option value="2014/12/31" id="pd-OPTION_58">
+                      Oct-Dec,2014
+                    </option> 
+                    <option value="2014/09/30" id="pd-OPTION_59">
+                      July-Sept,2014
+                    </option> 
+                    <option value="2014/06/30" id="pd-OPTION_60">
+                      Apr-Jun,2014
+                    </option>
+                  </select>
+                </form>
+              </div>
+              <p id="pd-P_61">
+                Number of Days At:
+              </p>
+              <table id="pd-TABLE_62">
+                <tbody id="pd-TBODY_63">
+                  <tr id="pd-TR_64">
+                    <td id="pd-TD_65">
+                      Premium<a href="#" id="pd-A_66"></a>
+                    </td>
+                    <td id="pd-TD_67">
+                      45
+                    </td>
+                  </tr>
+                  <tr id="pd-TR_68">
+                    <td id="pd-TD_69">
+                      NAV<a href="#" id="pd-A_70"></a>
+                    </td>
+                    <td id="pd-TD_71">
+                      4
+                    </td>
+                  </tr>
+                  <tr id="pd-TR_72">
+                    <td id="pd-TD_73">
+                      Discount<a href="#" id="pd-A_74"></a>
+                    </td>
+                    <td id="pd-TD_75">
+                      11
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <dl id="pd-DL_76">
+              <dt id="pd-DT_77">
+                <p id="pd-P_78">
+                  Premium/Discount Range
+                </p>
+              </dt>
+              <dd id="pd-DD_79">
+                <p id="pd-P_80">
+                  # of Days
+                </p>
+              </dd>
+              <dt id="pd-DT_81">
+                <p id="pd-P_82">
+                  ≥ 0.0 up to 0.5
+                </p>
+              </dt>
+              <dd id="pd-DD_83">
+                <div id="pd-DIV_84">
+                  <div id="pd-DIV_85">
+                  </div>
+                </div>
+                <div id="pd-DIV_86">
+                  <div id="pd-DIV_87">
+                  </div>
+                </div>
+                <div id="pd-DIV_88">
+                  <div id="pd-DIV_89">
+                  </div>
+                </div>
+                <p id="pd-P_90">
+                  49
+                </p>
+              </dd>
+              <dt id="pd-DT_91">
+                <p id="pd-P_92">
+                  ≥ -0.5 up to 0.0
+                </p>
+              </dt>
+              <dd id="pd-DD_93">
+                <div id="pd-DIV_94">
+                  <div id="pd-DIV_95">
+                  </div>
+                </div>
+                <div id="pd-DIV_96">
+                  <div id="pd-DIV_97">
+                  </div>
+                </div>
+                <div id="pd-DIV_98">
+                  <div id="pd-DIV_99">
+                  </div>
+                </div>
+                <p id="pd-P_100">
+                  11
+                </p>
+              </dd>
+            </dl>
+          </div>   
+        </div>
+      </div>
+
+    </div> <!-- #gkc -->
+
+    <script id="gkc-cc-select" type="text/x-handlebars-template">
+      {{#each this}}
+        <li id="gkccc-LI_4">
+          <label id="gkccc-LABEL_5">
+            <input type="checkbox" data-col="{{@index}}" checked="checked" id="gkccc-INPUT_6">
+            <span id="gkccc-SPAN_7">{{this}}</span>
+          </label>
+        </li>
+      {{/each}}
+    </script>
+
+    <script id="gkc-chart-form" type="text/x-handlebars-template">
+      {{#if ucits}}
+        <div id="ucits-chart-options">
+        <label>Currency:
+        <select name="Currency" id="currency">
+          <option value="USD" selected="selected">US Dollar</option>
+          <option value="EUR">Euro</option>
+          <option value="GBP">British Pound</option>
+          <option value="CHF">Swiss Franc</option>
+        </select> 
+        </label>
+        <label>Performance:
+        <select name="Performance" id="performance">
+          <option value="Net" selected="selected">Net</option>
+          <option value="Gross">Gross</option>
+        </select> 
+        </label>
+        </div>
+      {{/if}}
+      {{#if fund}}
+        <div id="fund-chart-options">
+        <label>Share Class:
+        <select name="Share Class" id="share-class">
+          <option value="GAVIX" selected="selected">GAVIX</option>
+          <option value="GAVAX">GAVAX</option>
+        </select> 
+        </label>
+        </div>
+      {{/if}}
+      {{#if index}}
+        <div id="index-chart-options">
+        <label>Index:
+        <select name="Share Class" id="share-class">
+          <option value="WORLD" selected="selected">Developed World Indexes</option>
+          <option value="EMERGE">Emerging Markets Indexes</option>
+        </select> 
+        </label>
+        </div>
+      {{/if}}
+    </script> <!--FORMS-->
+
+    <script id="gkc-row" type="text/x-handlebars-template">
+          <tr id="gkc_TR_12">
+            {{#each this}}
+                {{#if_eq @index 0}}
+                  <td id="gkc_TD_13" class="row-head col-{{@index}}" colspan="2">{{this}}</td>
+                {{else}}
+                <td id="gkc_TD_13" class="col-{{@index}}">{{this}}{{! PERCENT SIGN GOES HERE IF NOT IN DATA}}</td>
+                {{/if_eq}}
+            {{/each}}
+          </tr>
+    </script>
+
+    <script id="gkc-distro-row" type="text/x-handlebars-template">
+          <tr id="gkc_TR_12">
+            {{#each this}}
+              <td id="gkc_TD_13" class="col-{{@index}}">{{this}}</td>
+            {{/each}}
+          </tr>
+    </script>
+
+    <script id="gkc-table" type="text/x-handlebars-template">
+      <table id="gkc_TABLE_1">
+        <thead id="gkc_THEAD_2">
+          <tr id="gkc_TR_3">
+            {{#unless distro_table}}
+            <th id="gkc_TH_4"></th>
+            <th id="gkc_TH_4"></th>
+            {{/unless}}
+            {{#each headers}}
+            <th id="gkc_TH_5" class="col-{{@index}}">
+                {{this}}
+              </th>
+            {{/each}}
+          </tr>
+        </thead>
+        <tbody id="gkc_TBODY_11">
+          {{#unless distro_table}}
+            {{#each rows}}
+              {{> row}}
+            {{/each}}
+          {{else}}
+          {{#each rows}}
+            {{> distroRow}}
+          {{/each}}
+          {{/unless}}
+        </tbody>
+      </table>
+      </template>
+    </script>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src='js/lodash.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+    <script src='js/data.js'></script>
+    <script src='js/formatData.js'></script>
+    <script src='js/formatReturns.js'></script>
+    <script src="js/highstock.src.js"></script>
+    <script src='js/handlebars-v3.0.0.js'></script>
+    <script src='js/distributions.js'></script>
+    <script src='js/main.js'></script>
+    <script src='js/custom_columns.js'></script>
+  </body>
+</html>

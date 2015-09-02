@@ -1,0 +1,131 @@
+body {
+  color: #282828;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1em;
+}
+a {
+  color: #005eb8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: #282828;
+  display: block;
+  font: 18px 'AkkuratProRegular', Arial, sans-serif;
+  height: 23px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 615px;
+}
+#performaceTabs {
+  color: #282828;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  height: 77px;
+  line-height: 14px;
+  width: 615px;
+}
+.component-tabs {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 2px;
+  height: 34px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.component-tabs li.active a {
+  background-color: #fff;
+  color: #000;
+  cursor: default;
+  text-decoration: none;
+  background: url("http://assets.blackrock.com/blk-one-assets/cache-1427401038000/include/common/css/product/i/icon-arrow-up.gif") no-repeat scroll center bottom #fff;
+}
+.component-tabs li {
+  float: left;
+  list-style: none outside none;
+  line-height: 1.5em;
+}
+.component-tabs li a {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  display: block;
+  font-size: 1.2em;
+  height: 20px;
+  outline: 0 none;
+  padding: 7px 12px;
+  white-space: nowrap;
+}
+.component-tabs-panel {
+  background: transparent;
+  padding-bottom: 10px;
+  clear: both;
+}
+#featuredProducts .component-tabs-panel ul {
+  float: left;
+  clear: both;
+}
+.component-tabs-panel.chart-table {
+  font-size: 0.85em;
+  margin-top: 20px;
+}
+.component-tabs-panel {
+  border: 0px none;
+  display: none;
+  position: relative;
+  background-color: #fff;
+}
+.component-tabs-panel.active {
+  display: block;
+}
+.component-tabs.sub-tabs {
+  margin-top: 0;
+  border-width: 0px 0px 1px;
+  float: right;
+  height: 24px;
+  margin-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+}
+.component-tabs.sub-tabs li {
+  margin-right: 5px;
+}
+.component-tabs li a,
+.component-tabs li span.mixed-asset-tab {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  display: block;
+  font-size: 1.2em;
+  height: 20px;
+  outline: none 0px;
+  padding: 7px 12px;
+  white-space: nowrap;
+}
+.component-tabs.sub-tabs li a {
+  font-size: 0.9em;
+  padding: 2px 5px 2px 0px;
+}
+.component-tabs li:last-child a {
+  border: 0px;
+  padding-right: 0px;
+}
+.component-tabs li.active a {
+  color: #000;
+  background: url("http://assets.blackrock.com/blk-one-assets/cache-1427401038000/include/common/css/product/i/icon-arrow-up.gif") 50% 100% no-repeat scroll #fff;
+}
+.component-tabs li.active a,
+.component-tabs li.active a:hover {
+  color: #000;
+  cursor: default;
+  text-decoration: none;
+  background-color: #fff;
+}
+.component-tabs.sub-tabs li.active a {
+  font-weight: bold;
+}

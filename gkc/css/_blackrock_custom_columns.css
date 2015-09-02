@@ -1,0 +1,165 @@
+#gkcc-DIV_1 {
+  color: #282828;
+  float: right;
+  height: 25px;
+  position: relative;
+  width: 166px;
+  perspective-origin: 83px 12.5px;
+  transform-origin: 83px 12.5px;
+  border: 0px none #282828;
+  font: normal normal normal normal 14px/14px Arial, sans-serif;
+  outline: #282828 none 0px;
+}
+/*#gkccc-DIV_1*/
+#gkccc-LABEL_2 {
+  background-position: 144px -1828px;
+  color: #282828;
+  cursor: pointer;
+  display: block;
+  height: 14px;
+  width: 150px;
+  perspective-origin: 83px 13px;
+  transform-origin: 83px 13px;
+  background: #fff url("http://assets.blackrock.com/blk-one-assets/cache-1430839164000/include/common/css/blk/i/sprite_icons.png") no-repeat scroll 144px -1828px/auto padding-box border-box;
+  border-top: 1px solid #abadb3;
+  border-right: 1px solid #dbdfe6;
+  border-bottom: 1px solid #e3e9ef;
+  border-left: 1px solid #e2e3ea;
+  font: normal normal normal normal 12px/normal Arial;
+  outline: #282828 none 0px;
+  padding: 5px 7px;
+}
+/*#gkccc-LABEL_2*/
+#gkccc-UL_3 {
+  color: #282828;
+  display: none;
+  height: auto;
+  max-height: 420px;
+  position: absolute;
+  top: 23px;
+  width: 150px;
+  z-index: 100;
+  align-self: stretch;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background: #fff none repeat scroll 0% 0%/auto padding-box border-box;
+  border-top: 0px solid #abadb3;
+  border-right: 1px solid #dbdfe6;
+  border-bottom: 1px solid #e3e9ef;
+  border-left: 1px solid #e2e3ea;
+  font: normal normal normal normal 14px/14px Arial, sans-serif;
+  list-style: none outside none;
+  margin: 0px;
+  outline: #282828 none 0px;
+  overflow: auto;
+  padding: 5px 7px;
+}
+/*#gkccc-UL_3*/
+#gkccc-LI_4,
+#gkccc-LI_8,
+#gkccc-LI_12,
+#gkccc-LI_16,
+#gkccc-LI_20,
+#gkccc-LI_24,
+#gkccc-LI_28,
+#gkccc-LI_32 {
+  color: #282828;
+  display: block;
+  height: auto;
+  width: auto;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border: 0px none #282828;
+  font: normal normal normal normal 12px/normal Arial;
+  list-style: none outside none;
+  outline: #282828 none 0px;
+  padding: 0px 0px 5px;
+}
+/*#gkccc-LI_4, #gkccc-LI_8, #gkccc-LI_12, #gkccc-LI_16, #gkccc-LI_20, #gkccc-LI_24, #gkccc-LI_28, #gkccc-LI_32*/
+#gkccc-LABEL_5,
+#gkccc-LABEL_9,
+#gkccc-LABEL_13,
+#gkccc-LABEL_17,
+#gkccc-LABEL_21,
+#gkccc-LABEL_25,
+#gkccc-LABEL_29,
+#gkccc-LABEL_33 {
+  color: #282828;
+  text-align: left;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border: 0px none #282828;
+  font: normal normal normal normal 12px/normal Arial;
+  list-style: none outside none;
+  outline: #282828 none 0px;
+}
+/*#gkccc-LABEL_5, #gkccc-LABEL_9, #gkccc-LABEL_13, #gkccc-LABEL_17, #gkccc-LABEL_21, #gkccc-LABEL_25, #gkccc-LABEL_29, #gkccc-LABEL_33*/
+#gkccc-INPUT_6,
+#gkccc-INPUT_10,
+#gkccc-INPUT_14,
+#gkccc-INPUT_18,
+#gkccc-INPUT_22,
+#gkccc-INPUT_26,
+#gkccc-INPUT_30,
+#gkccc-INPUT_34 {
+  height: 12px;
+  vertical-align: top;
+  width: 12px;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background: rgba(0,0,0,0) none repeat scroll 0% 0%/auto padding-box border-box;
+  border: 0px none #000;
+  list-style: none outside none;
+  padding: 0px;
+}
+/*#gkccc-INPUT_6, #gkccc-INPUT_10, #gkccc-INPUT_14, #gkccc-INPUT_18, #gkccc-INPUT_22, #gkccc-INPUT_26, #gkccc-INPUT_30, #gkccc-INPUT_34*/
+#gkccc-SPAN_7,
+#gkccc-SPAN_11,
+#gkccc-SPAN_19,
+#gkccc-SPAN_27,
+#gkccc-SPAN_35 {
+  color: #282828;
+  cursor: default;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 115px;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border: 0px none #282828;
+  font: normal normal normal normal 12px/normal Arial;
+  list-style: none outside none;
+  outline: #282828 none 0px;
+}
+/*#gkccc-SPAN_7, #gkccc-SPAN_11, #gkccc-SPAN_19, #gkccc-SPAN_27, #gkccc-SPAN_35*/
+#gkccc-SPAN_15,
+#gkccc-SPAN_23 {
+  color: #282828;
+  cursor: default;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 115px;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border: 0px none #282828;
+  font: normal normal normal normal 12px/normal Arial;
+  list-style: none outside none;
+  outline: #282828 none 0px;
+}
+/*#gkccc-SPAN_15, #gkccc-SPAN_23*/
+#gkccc-SPAN_31 {
+  color: #282828;
+  cursor: default;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 115px;
+  perspective-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border: 0px none #282828;
+  font: normal normal normal normal 12px/normal Arial;
+  list-style: none outside none;
+  outline: #282828 none 0px;
+}
+/*#gkccc-SPAN_31*/

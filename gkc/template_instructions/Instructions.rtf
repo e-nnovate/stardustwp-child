@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red0\green41\blue57;\red69\green60\blue204;\red29\green184\blue14;
+\red56\green110\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid3\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww22600\viewh12920\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
+Replace ... Old data with new\
+\pard\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+\
+Attached is a template with the current data filed in.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Color is just for ease of understanding. It has no effect and I only just now added it.\'a0 It can be sent as a csv work (which strips all styling)\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Columns are in a logical order but can be in any order\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Rows are also on a logical sequential order but can be in any order as long as the return rows are first\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+The title of each row should remain the same.\'a0 Otherwise a corresponding line in the code needs to be changed. \'a0(there is a single file that manages the naming, and is easy to change.\'a0 This is also where the corresponding title in graph would be set.)\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Red returns table titles\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}\expnd0\expndtw0\kerning0
+Can be edited if they remain in the same general format\
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160
+\ls1\ilvl2\cf2 \kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+four year dates,\'a0\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+keep A- indicates annual\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls1\ilvl1\cf2 \kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9702 
+\f0 	}\expnd0\expndtw0\kerning0
+They must all be above the rest of the growth history\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Empty cells have the test "null" in them.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+I think it would be best if they added a significant figure or two.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+I can instruct with tricks to get this setup from the setup they've been sending if need be.\
+\pard\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+Copy and paste all the cells into here:\'a0{\field{\*\fldinst{HYPERLINK "http://shancarter.github.io/mr-data-converter/"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \ulc5 http://shancarter.github.io/mr-data-converter/}} and convert to JSON column arrays and copy it into the data file.\
+\
+distributions is small enough to just do manually.\
+\
+\pard\pardeftab720
+\cf2 \expnd0\expndtw0\kerning0
+js/data.js is where you place the Json from mr.data converter.\
+It replaces the existing data in at the top of the file:\
+var data = \{\
+...\
+\};}
